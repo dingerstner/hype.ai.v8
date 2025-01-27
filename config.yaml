@@ -1,0 +1,19 @@
+cookie:
+  expiry_days: 30
+  key: some_signature_key
+  name: some_cookie_name
+  credentials:
+  usernames:
+  dingerstner:
+      email: din@gmail.co.il
+      name: Din Gerstner
+      password: $2b$12$8sfr3zA..TP2kUNnJT6Yje7N0v6yNj9u6gN21f1LNPfOPBO34gO/O
+preauthorized:
+  emails:
+  - din@gmail.co.il
+smtp:
+  password: your_app_password
+  port: 587
+  server: smtp.gmail.com
+  use_tls: true
+  username: your_email_address
